@@ -1,0 +1,29 @@
+.container {
+  background-color: #21295c;
+  color: #9eb3c2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+span {
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+}
+
+button {
+  width: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 1rem;
+  background-color: #9eb3c2;
+  cursor: pointer;
+  border: none;
+}
