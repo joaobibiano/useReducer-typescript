@@ -90,6 +90,7 @@ function App() {
       <input
         type="text"
         value={userName}
+        placeholder="Type your name"
         onChange={(ev) => {
           dispatch({ type: "updateUserName", name: ev.target.value });
         }}
